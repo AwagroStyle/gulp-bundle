@@ -5,6 +5,7 @@ var gulp = require("gulp"),
   concat = require("gulp-concat"),
   uglify = require("gulp-uglifyjs"),
   babel = require("gulp-babel"),
+  // cssnano      = require('gulp-cssnano'),
   csso = require("gulp-csso");
 (rename = require("gulp-rename")),
   (del = require("del")),
@@ -114,11 +115,11 @@ gulp.task("scriptsConcat", function () {
       /** libs */
       // 'node_modules/jquery/dist/jquery.min.js',
       // 'node_modules/aos/dist/aos.js',
-	  //   "node_modules/swiper/swiper-bundle.min.js",
-	  //   "node_modules/glightbox/dist/js/glightbox.min.js",
-	  //   "node_modules/imask/dist/imask.js",
-	  //   "node_modules/slim-select/dist/slimselect.min.js",
-	  //   "node_modules/micromodal/dist/micromodal.min.js",
+      // "node_modules/swiper/swiper-bundle.min.js",
+      // "node_modules/glightbox/dist/js/glightbox.min.js",
+      // "node_modules/imask/dist/imask.js",
+      // "node_modules/slim-select/dist/slimselect.min.js",
+      // "node_modules/micromodal/dist/micromodal.min.js",
       /** custom */
       "app/js/app.min.js",
     ])
